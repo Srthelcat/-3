@@ -41,3 +41,5 @@ print(result)
 print('--------------------------')
 totals = books_total(books)
 print(totals)
+
+input('Нажмите Enter, чтобы продолжить...')
