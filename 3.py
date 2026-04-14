@@ -30,10 +30,10 @@ books = get_books("books.csv")
 result = filtered_books(books, "python")
 
 def books_total(books):
-    return list(map(
+    return tuple(list(map(
         lambda b: (b[0], b[3] * b[4]),
         books
-    ))
+    )))
 
 print(books)
 print('--------------------------')
